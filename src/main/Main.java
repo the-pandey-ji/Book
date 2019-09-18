@@ -9,6 +9,7 @@ public class Main {
         String authorName;
         String isbn;
         int n = scan.nextInt();
+        scan.nextLine().trim();
         Book[] book = new Book[n];
         if (n == 0) {
             System.out.println("N/A");

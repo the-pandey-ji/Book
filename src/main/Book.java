@@ -8,7 +8,7 @@ public class Book {
     @Override
     public String toString() {
         return "-----------------------------\n" + "Book Name:\t" + bookName + "\nAuthor Name:\t" + authorName + "\nISBN:\t" + isbn +
-                "\n-----------------------------\n";
+                "\n-----------------------------";
     }
 
     Book(String bookName, String authorName, String isbn) {
